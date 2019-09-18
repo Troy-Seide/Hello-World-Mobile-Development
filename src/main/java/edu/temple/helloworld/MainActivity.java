@@ -16,13 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         firstwords=(TextView)findViewById(R.id.textView);
-        newwords=(Button)findViewById(R.id.button);
+        newwords=(Button)findViewById(R.id.button2);
         newwords.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 firstwords.setText("You have clicked the button");
             }
         });
+
         //Button testButton = (Button) findViewById(R.id.button);
         //testButton.setOnClickListener();
     }
